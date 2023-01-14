@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FirstPersonAssetDataManager>
+  <peds>
+    <Item>
+      <name>mp_m_Freemode_01</name> <!-- Character Model -->
+	    <objects>
+		<!-- example glasses -->
+			<Item>
+			  <localIndex value="0" />
+			  <eCompType>PV_COMP_MAX</eCompType> <!-- Comp Type / See Comp Types -->
+			  <eAnchorPoint>ANCHOR_EYES</eAnchorPoint> <!-- Anchor Point / See Anchor Points --> <!-- ANCHOR_EYES=glasses / NUM_ANCHORS=normal components -->
+			  <dlcHash>mp_m_clo</dlcHash> <!-- DLC Name -->
+			  <dlcHash />
+			  <timeCycleMods>
+				<Item> <!-- This is texture variation A -->
+				  <textureId value="0" /> <!-- Texture id, what else lul-->
+				  <timeCycleMod>glasses_black</timeCycleMod> <!-- What "filter" be set -->
+				  <intensity value="0.5000000" /> <!-- Intensity -->
+				</Item>
+				<Item> <!-- This is texture variation B -->
+				  <textureId value="1" />
+				  <timeCycleMod>glasses_blue</timeCycleMod>
+				  <intensity value="0.5" />
+				</Item>
+			  </timeCycleMods>
+			  <audioId /> <!-- idk yet -->
+			  <flags value="0" />
+			  <fpsPropModel></fpsPropModel> <!-- What Prop model should be shown -->
+			  <fpsPropModelOffset x="0.000000" y="0.000000" z="0.0000" /> <!-- Prop model offset -->
+			  <seWeather value="1.000000" /> <!-- idk yet -->
+			  <seEnvironment value="1.000000" /> <!-- idk yet -->
+			  <seDamage value="1.000000" /> <!-- idk yet -->
+			  <tcModFadeOffSecs value="80.0f" /> <!-- idk yet -->
+			  <tcModInterpType>FPTC_POW4</tcModInterpType> <!-- idk yet -->
+			</Item>
+		<!-- example masks -->
+			<Item>
+			  <!-- 000 -->
+			  <localIndex value="0" />
+			  <eCompType>PV_COMP_BERD</eCompType>
+			  <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+			  <dlcHash>mp_m_clo</dlcHash>
+			  <timeCycleMods>
+				<!-- a  -->
+				<Item>
+				  <textureId value="0" />
+				  <timeCycleMod>fp_vig_black</timeCycleMod>
+				  <intensity value="1.0" />
+				</Item>
+				<!-- b  -->
+				<Item>
+				  <textureId value="1" />
+				  <timeCycleMod>fp_vig_black</timeCycleMod>
+				  <intensity value="1.0" />
+				</Item>
+			  </timeCycleMods>
+			  <audioId />
+			  <flags value="0" />
+			  <fpsPropModel>
+			  </fpsPropModel>
+			  <fpsPropModelOffset x="0.000000" y="0.00000" z="-0.00000" />
+			  <seWeather value="1.000000" />
+			  <seEnvironment value="1.000000" />
+			  <seDamage value="1.000000" />
+			  <tcModFadeOffSecs value="80.0f" />
+			  <tcModInterpType>FPTC_POW4</tcModInterpType>
+			</Item>
+		</objects>
+	</Item>  
+  </peds>
+</FirstPersonAssetDataManager>

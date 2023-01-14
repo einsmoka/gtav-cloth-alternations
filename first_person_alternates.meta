@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FirstPersonAlternateData>
+    <alternates>
+        <Item>
+            <assetName>MP_M_Freemode_01_mp_m_clo/jbib_000_u</assetName> <!-- *Charactermodel*_*dlc*/drawable // Example shown is mp_freemode model, dlc name clo, top id 0, universal type-->
+            <alternate value="1" /> <!-- what alternation the game will use 1=_1 ; 2=_2 -->
+        </Item>
+    </alternates>
+</FirstPersonAlternateData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAlternateVariations>
+    <peds>
+        <Item>
+            <name>mp_m_freemode_01</name> <!-- mp_m_freemode_01 / Character Model -->
+            <switches>
+                <Item> <!-- Component which will have the alternation -->
+                    <dlcNameHash>mp_m_clo</dlcNameHash> <!-- Base component with alternation _1, _2, _3, ... -->
+                    <component value="2" /> <!-- Component ID (2 = Hair) -->
+                    <index value="0" /> <!-- Component Index 0 = hair_000 -->
+                    <alt value="3" /> <!-- Varation number 0 = normal, 1 = _1, 2 = _2 ... -->
+                    <sourceAssets>
+                        <Item> <!-- Component which triggers the alternation -->
+                            <dlcNameHash>mp_m_security</dlcNameHash> <!-- DLC -->
+                            <component value="11" /> <!-- Component ID -->
+                            <index value="3" /> <!-- Component Index -->
+                        </Item>
+                    </sourceAssets>
+                </Item>
+            </switches>
+        </Item>
+    </peds>
+</CAlternateVariations>
